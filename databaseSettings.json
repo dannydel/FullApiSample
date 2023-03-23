@@ -1,0 +1,8 @@
+{
+	"ConnectionStrings": {
+		"KeyVaultUrl": "key vault url here",
+		"DebugDB": "",
+		"ProdDB": "",
+		"Migrations":  ""
+	}
+}

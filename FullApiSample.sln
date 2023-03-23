@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7D7171CF-B268-4D78-A0AF-1CD8784E76FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Models", "Data Models", "{6280AB2E-23A0-4FA3-B8C8-BFCC269ABDA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{97EB6B6F-8314-4743-ADE1-2742FC3CF976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rest Services", "Rest Services", "{78BF06E4-D33B-48B0-9EDF-26BA98518A1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41E3233D-269C-49C7-B110-0300105864B0}"
+	ProjectSection(SolutionItems) = preProject
+		databaseSettings.json = databaseSettings.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.API", "API\Sample.API\Sample.API.csproj", "{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherForecast", "WeatherForecast", "{581183BB-7325-4F9E-86F1-89F7E5004482}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.WeatherForecast.Models", "Data Models\WeatherForecast\Sample.WeatherForecast.Models\Sample.WeatherForecast.Models.csproj", "{FDF97C49-CE38-4BFC-87DD-875D337E16B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{743D6EC3-7BB8-4653-B98D-F4682275C8B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Api.Tests", "Sample.Api.Tests\Sample.Api.Tests.csproj", "{9C877A96-6BB7-488E-A6CE-A940AE784A51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{10E16FB6-FF64-4350-9EA7-C08B5509A77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{33659A06-11B8-440A-9F70-645BB53D9F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{036F0EDE-2DE4-40CB-BE6A-46D70CD47521}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Database.Entity", "Database\Sample.Database.Entity\Sample.Database.Entity.csproj", "{12839402-A64B-4D6C-842F-06E2D300207C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{FFF0A959-D7C3-4436-8153-AE491249727F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Store.Models", "Data Models\Store\Sample.Store.Models\Sample.Store.Models.csproj", "{63207B8D-199D-454E-92F9-E47E26270372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF97C49-CE38-4BFC-87DD-875D337E16B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF97C49-CE38-4BFC-87DD-875D337E16B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF97C49-CE38-4BFC-87DD-875D337E16B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF97C49-CE38-4BFC-87DD-875D337E16B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C877A96-6BB7-488E-A6CE-A940AE784A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C877A96-6BB7-488E-A6CE-A940AE784A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C877A96-6BB7-488E-A6CE-A940AE784A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C877A96-6BB7-488E-A6CE-A940AE784A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12839402-A64B-4D6C-842F-06E2D300207C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12839402-A64B-4D6C-842F-06E2D300207C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12839402-A64B-4D6C-842F-06E2D300207C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12839402-A64B-4D6C-842F-06E2D300207C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63207B8D-199D-454E-92F9-E47E26270372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63207B8D-199D-454E-92F9-E47E26270372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63207B8D-199D-454E-92F9-E47E26270372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63207B8D-199D-454E-92F9-E47E26270372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5AD1DB9-86FD-4EC5-9FB5-28FA92062D29} = {7D7171CF-B268-4D78-A0AF-1CD8784E76FE}
+		{581183BB-7325-4F9E-86F1-89F7E5004482} = {6280AB2E-23A0-4FA3-B8C8-BFCC269ABDA9}
+		{FDF97C49-CE38-4BFC-87DD-875D337E16B5} = {581183BB-7325-4F9E-86F1-89F7E5004482}
+		{743D6EC3-7BB8-4653-B98D-F4682275C8B3} = {7D7171CF-B268-4D78-A0AF-1CD8784E76FE}
+		{9C877A96-6BB7-488E-A6CE-A940AE784A51} = {743D6EC3-7BB8-4653-B98D-F4682275C8B3}
+		{33659A06-11B8-440A-9F70-645BB53D9F91} = {10E16FB6-FF64-4350-9EA7-C08B5509A77D}
+		{036F0EDE-2DE4-40CB-BE6A-46D70CD47521} = {33659A06-11B8-440A-9F70-645BB53D9F91}
+		{12839402-A64B-4D6C-842F-06E2D300207C} = {33659A06-11B8-440A-9F70-645BB53D9F91}
+		{FFF0A959-D7C3-4436-8153-AE491249727F} = {6280AB2E-23A0-4FA3-B8C8-BFCC269ABDA9}
+		{63207B8D-199D-454E-92F9-E47E26270372} = {FFF0A959-D7C3-4436-8153-AE491249727F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B401639-17E1-41DD-AADB-14E240FEDA28}
+	EndGlobalSection
+EndGlobal
